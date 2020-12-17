@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Android Club</title>
+    <link rel = "icon" href ="./assets/img/logo.png" type = "image/x-icon">  
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="/lower.css">
+    <link href='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.css' rel='stylesheet' />
+    <script src='https://api.mapbox.com/mapbox.js/v3.3.1/mapbox.js'></script>
+</head>
+
+
+<body>
+    <header>
+        <nav class="navbar navbar-light navbar-expand-md smart-scroll">
+                <div class="container-fluid"><a class="navbar-brand" href="#home"><img src="./assets/img/logo.png" class="logo">&nbsp;</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navcol-1">
+                        <ul class="nav navbar-nav ml-auto">
+                            <li class="nav-item"><a class="nav-link middle" id="navbtn" href="#about-us">About</a></li>
+                            <li class="nav-item"><a class="nav-link middle" id="navbtn" href="#events">Events</a></li>
+                            <li class="nav-item"><a class="nav-link middle" id="navbtn" href="#team">Team</a></li>
+							<li class="nav-item"><a class="nav-link middle" id="navbtn" href="#contact-us">Contact</a></li>
+							<li class="nav-item"><a class="nav-link middle" id="navbtn" href="#map"><i class="fas fa-map-marker-alt"></i>&nbsp;VIT Chennai</a></li>
+                        </ul>
+                    </div>
+                </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid top-box" >
+        <div class="home-page-circle-3"></div>
+        <div class="row">
+            <div class="col-md-6 col-sm-12 main-text-box">
+                <h1 class="display-1 main-text hvr-grow" id="start">Android Club</h1>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <img src="./assets/img/phone.svg" class="img-fluid phone" alt="Responsive image">
+            </div>
+        </div>
+        <div class="container box">
+            <div class="row" id="about-us">
+                <div class="col-md-6 col-sm-12">
+                    <img src="./assets/img/logo.png" class="img-fluid abt-logo" alt="Responsive image">
+                </div>
+                <div class="col-md-6 col-sm-12 blue-shadow">
+                    <h1 class="display-2 heading" style="font-size: calc(100% + 6vw );">About</h1>
+                    <p class="lead para">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Illum ipsum, tempora autem doloremque incidunt deserunt aut sequi explicabo natus veritatis nisi iste.
+                    Quae, repellendus minima ex fugiat dignissimos laboriosam voluptatibus?</p>
+                </div>
+            </div>
+        </div>
+        <div class="container box projects-clean">
+            <div class="intro" id="events">
+                <h2 class="display-2 text-center">Events</h2>
+                <p class="text-center text-white">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae. </p>
+            </div>
+            <div class="row projects">
+                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/desk.jpg">
+                    <h3 class="name">Event Name</h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/building.jpg">
+                    <h3 class="name">Event Name</h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/loft.jpg">
+                    <h3 class="name">Event Name</h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                </div>
+                <div class="col-sm-6 col-lg-4 item"><img class="img-fluid" src="assets/img/minibus.jpeg">
+                    <h3 class="name">Event Name</h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container box team-boxed">
+            <div class="intro" id="team">
+                <h2 class="display-2 text-center">Team </h2>
+                <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.</p>
+            </div>
+            <div class="row people">
+                <div class="col-md-6 col-lg-4 item">
+                    <div class="box"><img class="rounded-circle" src="assets/img/1.jpg">
+                        <h3 class="name">David Johnson</h3>
+                        <p class="title">development</p>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                        <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <div class="box"><img class="rounded-circle" src="assets/img/2.jpg">
+                        <h3 class="name">Chloe Grace</h3>
+                        <p class="title">marketing</p>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                        <div class="social"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 item">
+                    <div class="box"><img class="rounded-circle" src="assets/img/3.jpg">
+                        <h3 class="name">Light Turner</h3>
+                        <p class="title">design</p>
+                        <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa. </p>
+                        <div class="social">
+                            <a href="#"><i class="fa fa-facebook-official"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container box contact-clean">
+            <div class="intro" id="contact-us">
+                <h2 class="display-2 text-center">Contact</h2>
+                <p class="text-center intro">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.</p>
+            </div>
+            <div class="row">
+                <div class="col col-12 col-md-6 order-2 order-md-1">
+                    <form method="post">
+                        <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name" required=""></div>
+                        <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email" required=""></div>
+                        <div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="14"></textarea></div>
+                        <div class="form-group"><button class="btn btn-primary" type="submit">send </button></div>
+                    </form>
+                </div>
+                <div class="col col-12 col-md-6 order-1 order-md-2" id="map">
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <footer class="footer-dark top-box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Web design</a></li>
+                            <li><a href="#">Development</a></li>
+                            <li><a href="#">Hosting</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Club</a></li>
+                            <li><a href="#team">Team</a></li>
+                            <li><a href="#contact-us">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 item text">
+                        <h3>Android Club</h3>
+                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. 
+                           Ut vehicula rhoncus elementum. Etiam quis tristique lectus. 
+                           Aliquam in arcu eget velit pulvinar dictum vel in justo.
+                        </p>
+                    </div>
+                    <div class="col item social">
+                        <a href="#"><i class="icon ion-social-linkedin"></i></a>
+                        <a href="#"><i class="icon ion-social-instagram"></i></a>
+                        <a href="#"><i class="icon ion-social-github"></i></a>
+                    </div>
+                </div>
+                <p class="copyright">Android Club © 2020</p>
+            </div>
+        </footer>
+
+    </div>
+    
+
+
+
+    <script src="https://kit.fontawesome.com/781e59e740.js" crossorigin="anonymous"></script>    
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+    <script src="index.js"></script>
+
+</body>
+    
+</html>
