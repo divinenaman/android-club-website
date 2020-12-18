@@ -199,6 +199,7 @@ a.middle:hover:before {
   transform: scaleX(1);
 }
 
+
 /* ids*/
 
 #navbtn{
@@ -206,6 +207,11 @@ a.middle:hover:before {
     color: black;
 }
 
+#map{
+  width: 50vw;
+  height: 57vh;
+  margin-left: -20%;
+}
 
 /*keyframes*/
 

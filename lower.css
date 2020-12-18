@@ -1,3 +1,23 @@
+.map-clean{
+    background-color: #E79247;
+    border-radius: 20% 0% 20% 0%;
+    padding: 80px 0;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.map-clean h2{
+    font-size: calc(100% + 5vw);
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 10vh;
+}
+
+.map-clean #map {
+    z-index: 0;
+}
+
 .contact-clean {
     background-color: #F8EFBA;
     border-radius: 0% 10% 0% 10%;

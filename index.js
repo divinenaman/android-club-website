@@ -30,12 +30,14 @@ if ($('.smart-scroll').length > 0) { // check if element exists
 //mapbox
 
  var x=document.getElementById('map');
-    L.mapbox.accessToken = 'pk.eyJ1IjoibmFtYW4tZGV2IiwiYSI6ImNrZ2FvM3pveDA5MXkydHFuN3phbmI1dmYifQ.aEltE_iy6B49-YiNsht4cQ';
-    var map = L.mapbox.map('map')
-        .setView([12.840761286993125, 80.1534282972338], 16)
-        .addLayer(L.mapbox.styleLayer('mapbox://styles/mapbox/streets-v11'));
-    var marker = L.marker([12.840761286993125, 80.1534282972338], {
-    icon: L.mapbox.marker.icon({
-        'marker-color': '#f86767'
-    })
-    }).addTo(map);
+  
+
+L.mapbox.accessToken = 'pk.eyJ1IjoibmFtYW4tZGV2IiwiYSI6ImNrZ2FvM3pveDA5MXkydHFuN3phbmI1dmYifQ.aEltE_iy6B49-YiNsht4cQ';
+var map = L.mapbox.map('map')
+         .setView([12.840761286993125, 80.1534282972338], 16)
+         .addLayer(L.mapbox.styleLayer('mapbox://styles/mapbox/streets-v11'));
+     var marker = L.marker([12.840761286993125, 80.1534282972338], {
+     icon: L.mapbox.marker.icon({
+         'marker-color': '#f86767'
+     })
+     }).addTo(map);
